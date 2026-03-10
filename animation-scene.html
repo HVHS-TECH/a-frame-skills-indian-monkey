@@ -6,9 +6,15 @@
     </head>
     <body>
         <a-scene>
-            <!-- Set the sky -->
-            <a-sky color="black"></a-sky>
-
+            <a-sky color="white"></a-sky>
+            <a-box color="purple" position="0 0 -4"
+            animate="
+            property: color;
+            from: purple;
+            to: pink;
+            loop: true;
+            dur: 2000;"
+            ></a-box>
         </a-scene>
     </body>
 </html>
