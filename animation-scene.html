@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
-        <title>Radioactive Signals</title>
+        <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
     </head>
     <body>
         <a-scene>
-            <a-sky color="white"></a-sky>
-            <a-box color="purple" position="0 0 -4"
-            animation="
-                property: position;
-                from: -4 2 -22;
-                to: 4 2 -8;
-                dur: 2000;
-                loop: true;
-                dir: alternate;
-                "
-
-                animation_rotation="
-                property: rotation;
-                from: 0 0 0;
-                to: 0 90 0;
-                loop: true;
-                dur: 2000;
-                dir: alternate;
-                "
-            ></a-box>
+            
+<a-box  color="green" position="0 0 -4"
+    animation="
+        property: position; 
+        from: -2 0 -4;
+        to: 2 0 -4; 
+        dur: 2000; 
+        loop: true; 
+        dir:alternate
+        "
+    animation__rotation="
+        property: rotation; 
+        from: 0 0 0;
+        to: 0 90 0; 
+        dur: 2000; 
+        loop: true; 
+        dir:alternate
+        "
+>
+</a-box>
+            
+        </a-box>
         </a-scene>
     </body>
 </html>
