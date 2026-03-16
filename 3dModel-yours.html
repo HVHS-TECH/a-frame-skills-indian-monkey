@@ -15,7 +15,7 @@
       ply-model="src:dog2.ply"
       position="0.285 -2.025 -2.564"
       rotation="270 180 0"
-      scale="1 4 1"
+      scale="1 1 1"
       animation="
       property: position;
       from: 0 -1 -4;
@@ -25,8 +25,13 @@
       loop:true;
       easing:linear;
       "
-      animation="
+      animation__scale="
       property:scale;
+      from:3 1 1;
+      to: 1 1 1:
+      dur: 5000;
+      loop: true;
+      dir: alternate;
       "
       ></a-entity>
     </a-scene>
